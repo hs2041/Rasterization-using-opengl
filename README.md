@@ -34,7 +34,7 @@ sudo apt-get install freeglut3*
 sudo apt-get install libglfw3*
 
 # Build & compile
-Use the following commands make and compile the code:
+Use the following command to build and compile the code:
 
 1. ./run.sh
 
