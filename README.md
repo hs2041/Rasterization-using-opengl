@@ -3,10 +3,12 @@
 The following features have been implemented:
 
 1. User-generated mipmaps
-2. Stencils (for reflection)
-3. Shadow mapping
-4. Normal maps (Tiled floor)
-5. Illumination models (press 't' to switch):
+  a. Box filter (default)
+  a. Triangle filter "-t" argument for triangle filters
+3. Stencils (for reflection)
+4. Shadow mapping
+5. Normal maps (Tiled floor)
+6. Illumination models (press 't' to switch):
   a. Blinn phong
   b. Cook torrance
 6. Four direction lights located right above the table corners
@@ -23,7 +25,7 @@ The following features have been implemented:
 
 Both the illumination model required in the last assignment have been added. Sample images provided.
 
-System dependencies:
+# System dependencies:
 1. Glut
 2. opengl
 3. glfw
@@ -31,8 +33,8 @@ System dependencies:
 sudo apt-get install freeglut3*
 sudo apt-get install libglfw3*
 
+# Build & compile
 Use the following commands make and compile the code:
+
 1. ./run.sh
 
-I am using the key 't' to switch between illumination models
-use "-t" for triangle filters
