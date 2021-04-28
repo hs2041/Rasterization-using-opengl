@@ -18,7 +18,7 @@ The following features have been implemented:
   b. Up and down arrow keys to zoom in & out
   c. Esc to exit
 9. Texture mapping
-10. Rendering reflections
+10. Rendered reflections
 
 # Sample image
 ![sample](https://github.com/hs2041/Rasterization-using-opengl/blob/main/sample%20images/save.png)
